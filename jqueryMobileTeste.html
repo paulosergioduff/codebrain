@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.2/jquery.mobile-1.1.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.2/jquery.mobile-1.1.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>My Title</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<form action="form.php" method="post"> 
+<label for="basic">Text Input:</label>
+<input type="text" name="name" id="basic" data-mini="true" />
+
+<label for="username" class="ui-hidden-accessible">Username:</label>
+<input type="text" name="username" id="username" value="" placeholder="Username"/>
+
+
+<div data-role="fieldcontain" class="ui-hide-label">
+	<label for="username">Username:</label>
+	<input type="text" name="username" id="username" value="" placeholder="Username"/>
+</div>
+
+<div data-role="fieldcontain" class="ui-hide-label">
+    <fieldset data-role="controlgroup">
+	   <legend>Agree to the terms:</legend>
+	   <input type="checkbox" name="checkbox-2a" id="checkbox-2a" class="custom" />
+	   <label for="checkbox-2a">I agree</label>
+    </fieldset>
+</div>
+
+<div data-role="fieldcontain">
+	<label for="name">Text Input:</label>
+	<input type="text" name="name" id="name" value="" />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</form>		
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+posição fixed (pode rolar a pagina a vontade que o elemento vai permanecer css
+
+#minhaDiv
+			{
+				position: fixed;
+				bottom: 90px; /* bottom é o rodapé da página */
+				left: 40px;
+			}
